@@ -14,7 +14,7 @@ public class DashBoardPage {
     private final String balanceStart = "баланс: ";
     private final String balanceFinish = " р.";
     private final SelenideElement header = $("[data-test-id='dashboard']");
-    private final ElementsCollection cards = $$("list__item div");
+    private final ElementsCollection cards = $$(".list__item div");
     private final SelenideElement reloadButton = $("[data-test-id='action-reload']");
 
     public DashBoardPage() {
